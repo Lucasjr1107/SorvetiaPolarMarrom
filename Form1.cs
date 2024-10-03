@@ -17,6 +17,5 @@ namespace Sorvetia_PolarMarrom
             InitializeComponent();
         }
 
-        
     }
 }
