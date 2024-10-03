@@ -108,6 +108,7 @@
             this.lstInfoPedido.Name = "lstInfoPedido";
             this.lstInfoPedido.Size = new System.Drawing.Size(430, 284);
             this.lstInfoPedido.TabIndex = 6;
+            
             // 
             // panel1
             // 
