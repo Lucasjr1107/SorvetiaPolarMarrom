@@ -10,13 +10,11 @@ using System.Windows.Forms;
 
 namespace Sorvetia_PolarMarrom
 {
-    public partial class Form2 : Form
+    public partial class MenuSorveteria : Form
     {
-        public Form2()
+        public MenuSorveteria()
         {
             InitializeComponent();
         }
-
-      
     }
 }
