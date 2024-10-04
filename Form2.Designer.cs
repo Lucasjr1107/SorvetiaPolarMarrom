@@ -113,6 +113,7 @@
             this.txtName.Size = new System.Drawing.Size(452, 26);
             this.txtName.TabIndex = 5;
             this.txtName.Text = "a";
+         
             // 
             // lstItensPedido
             // 
