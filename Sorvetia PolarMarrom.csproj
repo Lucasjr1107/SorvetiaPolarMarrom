@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddPedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddPedido.Designer.cs">
+      <DependentUpon>AddPedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditarPedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditarPedido.Designer.cs">
+      <DependentUpon>EditarPedido.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
