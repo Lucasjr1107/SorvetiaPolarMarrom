@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorvetia PolarMarrom", "Sorvetia PolarMarrom.csproj", "{8DC2DB81-0D0C-4B9F-BE0C-C9D1C1AFD142}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorveteria PolarMarrom", "Sorveteria PolarMarrom.csproj", "{8DC2DB81-0D0C-4B9F-BE0C-C9D1C1AFD142}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
