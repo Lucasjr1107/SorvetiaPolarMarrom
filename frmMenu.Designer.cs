@@ -291,7 +291,7 @@
             // 
             // btnEdit
             // 
-            this.btnEdit.BackColor = System.Drawing.Color.SlateBlue;
+            this.btnEdit.BackColor = System.Drawing.Color.Cyan;
             this.btnEdit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEdit.Location = new System.Drawing.Point(332, 470);
             this.btnEdit.Name = "btnEdit";
@@ -299,6 +299,7 @@
             this.btnEdit.TabIndex = 15;
             this.btnEdit.Text = "Editar";
             this.btnEdit.UseVisualStyleBackColor = false;
+           
             // 
             // panel2
             // 
