@@ -138,6 +138,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(417, 241);
             this.panel1.TabIndex = 7;
+            this.panel1.Visible = false;
             // 
             // label6
             // 
@@ -149,6 +150,7 @@
             this.label6.Size = new System.Drawing.Size(53, 20);
             this.label6.TabIndex = 15;
             this.label6.Text = "label6";
+            this.label6.Visible = false;
             // 
             // label4
             // 
@@ -160,6 +162,7 @@
             this.label4.Size = new System.Drawing.Size(99, 20);
             this.label4.TabIndex = 14;
             this.label4.Text = "Quantidade:";
+            this.label4.Visible = false;
             // 
             // lblStatus
             // 
@@ -171,16 +174,18 @@
             this.lblStatus.Size = new System.Drawing.Size(62, 20);
             this.lblStatus.TabIndex = 13;
             this.lblStatus.Text = "Status:";
+            this.lblStatus.Visible = false;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.SystemColors.Menu;
-            this.label3.Location = new System.Drawing.Point(156, 29);
+            this.label3.Location = new System.Drawing.Point(135, 32);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(44, 16);
             this.label3.TabIndex = 12;
             this.label3.Text = "label3";
+            this.label3.Visible = false;
             // 
             // lblNomeCliente
             // 
@@ -192,6 +197,7 @@
             this.lblNomeCliente.Size = new System.Drawing.Size(127, 20);
             this.lblNomeCliente.TabIndex = 11;
             this.lblNomeCliente.Text = "Data do pedido:";
+            this.lblNomeCliente.Visible = false;
             // 
             // label5
             // 
@@ -202,6 +208,7 @@
             this.label5.Size = new System.Drawing.Size(145, 29);
             this.label5.TabIndex = 8;
             this.label5.Text = "Informaçoes";
+            this.label5.Visible = false;
             // 
             // label9
             // 
@@ -213,6 +220,7 @@
             this.label9.Size = new System.Drawing.Size(53, 20);
             this.label9.TabIndex = 10;
             this.label9.Text = "label9";
+            this.label9.Visible = false;
             // 
             // label8
             // 
@@ -224,6 +232,7 @@
             this.label8.Size = new System.Drawing.Size(53, 20);
             this.label8.TabIndex = 9;
             this.label8.Text = "label8";
+            this.label8.Visible = false;
             // 
             // lblValorTotal
             // 
