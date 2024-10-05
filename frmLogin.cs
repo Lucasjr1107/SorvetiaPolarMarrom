@@ -17,5 +17,19 @@ namespace Sorvetia_PolarMarrom
             InitializeComponent();
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (txtNome.Text.Length == 0 || txtSenha.Text.Length == 0)
+            {
+                MessageBox.Show("Erro!!!, Os campos não podem ser nulos!");
+                return;
+            }
+            else
+            {
+                MenuSorveteria abrirmenu = new MenuSorveteria();
+                abrirmenu.Show();
+                this.Hide();
+            }
+        }
     }
 }

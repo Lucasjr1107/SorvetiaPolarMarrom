@@ -52,10 +52,8 @@
             this.btnEdit = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -308,20 +306,12 @@
             this.panel2.Size = new System.Drawing.Size(417, 171);
             this.panel2.TabIndex = 16;
             // 
-            // numericUpDown1
-            // 
-            this.numericUpDown1.Location = new System.Drawing.Point(754, 17);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(120, 22);
-            this.numericUpDown1.TabIndex = 17;
-            // 
             // MenuSorveteria
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SkyBlue;
             this.ClientSize = new System.Drawing.Size(886, 533);
-            this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.btnApagar);
@@ -336,7 +326,6 @@
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -367,7 +356,6 @@
         private System.Windows.Forms.Label lblNomeCliente;
         private System.Windows.Forms.Label label4;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.Label label6;
     }
 }
