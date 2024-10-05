@@ -280,7 +280,7 @@
             // 
             // btnApagar
             // 
-            this.btnApagar.BackColor = System.Drawing.Color.Coral;
+            this.btnApagar.BackColor = System.Drawing.Color.DarkSalmon;
             this.btnApagar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnApagar.Location = new System.Drawing.Point(229, 470);
             this.btnApagar.Name = "btnApagar";
@@ -299,7 +299,6 @@
             this.btnEdit.TabIndex = 15;
             this.btnEdit.Text = "Editar";
             this.btnEdit.UseVisualStyleBackColor = false;
-           
             // 
             // panel2
             // 
