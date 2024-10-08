@@ -17,6 +17,9 @@ namespace Sorvetia_PolarMarrom
             InitializeComponent();
         }
 
-    
+        private void frmNovoProduto_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

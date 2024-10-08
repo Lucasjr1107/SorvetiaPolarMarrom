@@ -31,5 +31,10 @@ namespace Sorvetia_PolarMarrom
                 this.Hide();
             }
         }
+
+        private void LoginSite_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
