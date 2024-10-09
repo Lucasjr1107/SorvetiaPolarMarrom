@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sorvetia_PolarMarrom.Classe
+namespace Sorveteria_PolarMarrom.Classe
 {
     internal class Produto
     {

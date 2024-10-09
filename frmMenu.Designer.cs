@@ -1,4 +1,4 @@
-﻿namespace Sorvetia_PolarMarrom
+﻿namespace Sorveteria_PolarMarrom
 {
     partial class MenuSorveteria
     {
@@ -36,6 +36,10 @@
             this.txtName = new System.Windows.Forms.TextBox();
             this.lstItensPedido = new System.Windows.Forms.ListBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.lblStatus = new System.Windows.Forms.Label();
             this.lblNomeCliente = new System.Windows.Forms.Label();
@@ -48,10 +52,6 @@
             this.btnEdit = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -141,6 +141,35 @@
             this.panel1.Size = new System.Drawing.Size(469, 301);
             this.panel1.TabIndex = 7;
             this.panel1.Visible = false;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(156, 183);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(133, 26);
+            this.textBox4.TabIndex = 18;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(147, 140);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(133, 26);
+            this.textBox3.TabIndex = 17;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(109, 90);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(133, 26);
+            this.textBox2.TabIndex = 16;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(179, 35);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(133, 26);
+            this.textBox1.TabIndex = 15;
             // 
             // label4
             // 
@@ -272,34 +301,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(469, 214);
             this.panel2.TabIndex = 16;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(179, 35);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(133, 26);
-            this.textBox1.TabIndex = 15;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(109, 90);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(133, 26);
-            this.textBox2.TabIndex = 16;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(147, 140);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(133, 26);
-            this.textBox3.TabIndex = 17;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(156, 183);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(133, 26);
-            this.textBox4.TabIndex = 18;
             // 
             // MenuSorveteria
             // 

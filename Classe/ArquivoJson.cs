@@ -7,13 +7,12 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace Sorvetia_PolarMarrom.Classe
+namespace Sorveteria_PolarMarrom.Classe
 {
     internal class ArquivoJson
     {
 
-        internal class ArquivosJson
-        {
+        
             private static string caminhoArquivoPedidos = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "pedidos.json");
             private static string caminhoArquivoProdutos = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "produtos.json");
 
@@ -93,4 +92,3 @@ namespace Sorvetia_PolarMarrom.Classe
             }
         }
     }
-}

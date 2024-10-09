@@ -1,4 +1,4 @@
-﻿namespace Sorvetia_PolarMarrom
+﻿namespace Sorveteria_PolarMarrom
 {
     partial class frmNovoProduto
     {
@@ -32,7 +32,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.btnConfirmar = new System.Windows.Forms.Button();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.nmrValorDoProduto = new System.Windows.Forms.NumericUpDown();
             this.txtDetalhes = new System.Windows.Forms.TextBox();
             this.txtSabor = new System.Windows.Forms.TextBox();
             this.lblDetalhes = new System.Windows.Forms.Label();
@@ -41,7 +41,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nmrValorDoProduto)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -50,7 +50,7 @@
             this.panel1.BackColor = System.Drawing.Color.SkyBlue;
             this.panel1.Controls.Add(this.btnCancelar);
             this.panel1.Controls.Add(this.btnConfirmar);
-            this.panel1.Controls.Add(this.numericUpDown1);
+            this.panel1.Controls.Add(this.nmrValorDoProduto);
             this.panel1.Controls.Add(this.txtDetalhes);
             this.panel1.Controls.Add(this.txtSabor);
             this.panel1.Controls.Add(this.lblDetalhes);
@@ -82,18 +82,19 @@
             this.btnConfirmar.TabIndex = 6;
             this.btnConfirmar.Text = "Confirmar";
             this.btnConfirmar.UseVisualStyleBackColor = false;
+            this.btnConfirmar.Click += new System.EventHandler(this.btnConfirmar_Click);
             // 
-            // numericUpDown1
+            // nmrValorDoProduto
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(31, 165);
-            this.numericUpDown1.Maximum = new decimal(new int[] {
+            this.nmrValorDoProduto.Location = new System.Drawing.Point(31, 165);
+            this.nmrValorDoProduto.Maximum = new decimal(new int[] {
             9999,
             0,
             0,
             0});
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(189, 26);
-            this.numericUpDown1.TabIndex = 5;
+            this.nmrValorDoProduto.Name = "nmrValorDoProduto";
+            this.nmrValorDoProduto.Size = new System.Drawing.Size(189, 26);
+            this.nmrValorDoProduto.TabIndex = 5;
             // 
             // txtDetalhes
             // 
@@ -173,7 +174,7 @@
             this.Load += new System.EventHandler(this.frmNovoProduto_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nmrValorDoProduto)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -192,6 +193,6 @@
         private System.Windows.Forms.TextBox txtDetalhes;
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.Button btnConfirmar;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.NumericUpDown nmrValorDoProduto;
     }
 }

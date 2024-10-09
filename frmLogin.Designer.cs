@@ -1,4 +1,4 @@
-﻿namespace Sorvetia_PolarMarrom
+﻿namespace Sorveteria_PolarMarrom
 {
     partial class LoginSite
     {

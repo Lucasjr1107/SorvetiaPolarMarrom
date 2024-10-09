@@ -33,7 +33,7 @@
             this.lblPrdt = new System.Windows.Forms.Label();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.lblQuantidade = new System.Windows.Forms.Label();
-            this.txtBoxDescSabores = new System.Windows.Forms.RichTextBox();
+            this.txtDescriçao = new System.Windows.Forms.RichTextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnSalvar = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
@@ -92,14 +92,14 @@
             this.lblQuantidade.TabIndex = 4;
             this.lblQuantidade.Text = "Quantidade:";
             // 
-            // txtBoxDescSabores
+            // txtDescriçao
             // 
-            this.txtBoxDescSabores.Location = new System.Drawing.Point(51, 259);
-            this.txtBoxDescSabores.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.txtBoxDescSabores.Name = "txtBoxDescSabores";
-            this.txtBoxDescSabores.Size = new System.Drawing.Size(312, 179);
-            this.txtBoxDescSabores.TabIndex = 5;
-            this.txtBoxDescSabores.Text = "";
+            this.txtDescriçao.Location = new System.Drawing.Point(51, 259);
+            this.txtDescriçao.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtDescriçao.Name = "txtDescriçao";
+            this.txtDescriçao.Size = new System.Drawing.Size(312, 179);
+            this.txtDescriçao.TabIndex = 5;
+            this.txtDescriçao.Text = "";
             // 
             // label1
             // 
@@ -144,7 +144,7 @@
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnSalvar);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.txtBoxDescSabores);
+            this.Controls.Add(this.txtDescriçao);
             this.Controls.Add(this.lblQuantidade);
             this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.lblPrdt);
@@ -166,7 +166,7 @@
         private System.Windows.Forms.Label lblPrdt;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.Label lblQuantidade;
-        private System.Windows.Forms.RichTextBox txtBoxDescSabores;
+        private System.Windows.Forms.RichTextBox txtDescriçao;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnSalvar;
         private System.Windows.Forms.Button btnCancel;

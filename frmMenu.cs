@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Sorvetia_PolarMarrom
+namespace Sorveteria_PolarMarrom
 {
     public partial class MenuSorveteria : Form
     {
@@ -17,6 +17,9 @@ namespace Sorvetia_PolarMarrom
             InitializeComponent();
         }
 
-       
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
