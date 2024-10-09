@@ -32,9 +32,6 @@ namespace Sorveteria_PolarMarrom
             }
         }
 
-        private void LoginSite_Load(object sender, EventArgs e)
-        {
-
-        }
+       
     }
 }

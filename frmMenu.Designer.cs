@@ -141,7 +141,7 @@
             this.panel1.Size = new System.Drawing.Size(469, 301);
             this.panel1.TabIndex = 7;
             this.panel1.Visible = false;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+           
             // 
             // textBox4
             // 

@@ -16,5 +16,10 @@ namespace Sorvetia_PolarMarrom
         {
             InitializeComponent();
         }
+
+        private void AddPedido_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
