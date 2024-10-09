@@ -16,6 +16,10 @@ namespace Sorveteria_PolarMarrom
     public partial class frmNovoProduto : Form
     {
         private List<Produto> ListaProdutos;
+        public string Sabor { get; set; }
+
+        public string Detalhes { get; set; }
+        public string Valor { get; set; }
 
         public frmNovoProduto()
         {
@@ -25,6 +29,9 @@ namespace Sorveteria_PolarMarrom
         private void btnConfirmar_Click(object sender, EventArgs e)
         {
             SalvarProduto();
+
+            txtSabor.Text = Sabor;
+            txtDetalhes.Text = Detalhes;
         }
 
         private void SalvarProduto()
@@ -74,6 +81,7 @@ namespace Sorveteria_PolarMarrom
         {
             ListaProdutos = (List<Produto>)ArquivoJson.ImportarProdutosJson();
         }
+
 
     }
 }

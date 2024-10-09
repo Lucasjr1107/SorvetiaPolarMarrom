@@ -12,6 +12,10 @@ namespace Sorveteria_PolarMarrom
 {
     public partial class MenuSorveteria : Form
     {
+        public string Sabor { get; set; }
+        public string Detalhes { get; set; }
+        public string Valor { get; set; }
+
         public MenuSorveteria()
         {
             InitializeComponent();
@@ -20,7 +24,13 @@ namespace Sorveteria_PolarMarrom
         private void cadastrarProdutoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmNovoProduto frmNovoProduto = new frmNovoProduto();
-            frmNovoProduto.Show();    
+            frmNovoProduto.Show();
+        }
+
+        private void lstItensPedido_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
+
