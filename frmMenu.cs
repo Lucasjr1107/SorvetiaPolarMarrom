@@ -17,6 +17,10 @@ namespace Sorveteria_PolarMarrom
             InitializeComponent();
         }
 
-     
+        private void cadastrarProdutoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmNovoProduto frmNovoProduto = new frmNovoProduto();
+            frmNovoProduto.Show();    
+        }
     }
 }

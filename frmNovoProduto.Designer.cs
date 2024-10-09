@@ -58,16 +58,16 @@
             this.panel1.Controls.Add(this.lblsabor);
             this.panel1.Location = new System.Drawing.Point(47, 261);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(472, 269);
+            this.panel1.Size = new System.Drawing.Size(472, 250);
             this.panel1.TabIndex = 1;
             // 
             // btnCancelar
             // 
             this.btnCancelar.BackColor = System.Drawing.Color.Red;
             this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelar.Location = new System.Drawing.Point(369, 238);
+            this.btnCancelar.Location = new System.Drawing.Point(360, 199);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(103, 34);
+            this.btnCancelar.Size = new System.Drawing.Size(103, 41);
             this.btnCancelar.TabIndex = 7;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = false;
@@ -76,9 +76,9 @@
             // 
             this.btnConfirmar.BackColor = System.Drawing.Color.Lime;
             this.btnConfirmar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConfirmar.Location = new System.Drawing.Point(250, 238);
+            this.btnConfirmar.Location = new System.Drawing.Point(241, 199);
             this.btnConfirmar.Name = "btnConfirmar";
-            this.btnConfirmar.Size = new System.Drawing.Size(113, 31);
+            this.btnConfirmar.Size = new System.Drawing.Size(113, 41);
             this.btnConfirmar.TabIndex = 6;
             this.btnConfirmar.Text = "Confirmar";
             this.btnConfirmar.UseVisualStyleBackColor = false;

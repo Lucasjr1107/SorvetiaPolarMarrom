@@ -97,7 +97,7 @@
             this.txtDescriçao.Location = new System.Drawing.Point(51, 259);
             this.txtDescriçao.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtDescriçao.Name = "txtDescriçao";
-            this.txtDescriçao.Size = new System.Drawing.Size(312, 179);
+            this.txtDescriçao.Size = new System.Drawing.Size(312, 132);
             this.txtDescriçao.TabIndex = 5;
             this.txtDescriçao.Text = "";
             // 
