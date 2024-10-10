@@ -29,15 +29,15 @@
         private void InitializeComponent()
         {
             this.lblAdicionarPedido = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cmbProdutos = new System.Windows.Forms.ComboBox();
             this.lblPrdt = new System.Windows.Forms.Label();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.numQuantidade = new System.Windows.Forms.NumericUpDown();
             this.lblQuantidade = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.btnSalvar = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
             this.numValor = new System.Windows.Forms.NumericUpDown();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numQuantidade)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numValor)).BeginInit();
             this.SuspendLayout();
             // 
@@ -45,51 +45,64 @@
             // 
             this.lblAdicionarPedido.AutoSize = true;
             this.lblAdicionarPedido.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAdicionarPedido.Location = new System.Drawing.Point(135, 32);
+            this.lblAdicionarPedido.Location = new System.Drawing.Point(120, 26);
             this.lblAdicionarPedido.Name = "lblAdicionarPedido";
-            this.lblAdicionarPedido.Size = new System.Drawing.Size(331, 32);
+            this.lblAdicionarPedido.Size = new System.Drawing.Size(283, 29);
             this.lblAdicionarPedido.TabIndex = 0;
             this.lblAdicionarPedido.Text = "Adicionar item no Pedido";
             // 
-            // comboBox1
+            // cmbProdutos
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(46, 114);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(317, 28);
-            this.comboBox1.TabIndex = 1;
+            this.cmbProdutos.FormattingEnabled = true;
+            this.cmbProdutos.Items.AddRange(new object[] {
+            "Floco",
+            "Pitaya",
+            "Morango",
+            "Chocolate",
+            "Coco",
+            "Manga",
+            "Maracujá",
+            "Limão",
+            "Milho verde",
+            "Chiclete",
+            "Uva",
+            "Frutas vermelhas"});
+            this.cmbProdutos.Location = new System.Drawing.Point(41, 91);
+            this.cmbProdutos.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.cmbProdutos.Name = "cmbProdutos";
+            this.cmbProdutos.Size = new System.Drawing.Size(282, 24);
+            this.cmbProdutos.TabIndex = 1;
             // 
             // lblPrdt
             // 
             this.lblPrdt.AutoSize = true;
             this.lblPrdt.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPrdt.Location = new System.Drawing.Point(46, 86);
+            this.lblPrdt.Location = new System.Drawing.Point(41, 69);
             this.lblPrdt.Name = "lblPrdt";
-            this.lblPrdt.Size = new System.Drawing.Size(96, 25);
+            this.lblPrdt.Size = new System.Drawing.Size(81, 20);
             this.lblPrdt.TabIndex = 2;
             this.lblPrdt.Text = "Produtos:";
             // 
-            // numericUpDown1
+            // numQuantidade
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(46, 191);
-            this.numericUpDown1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.numericUpDown1.Maximum = new decimal(new int[] {
+            this.numQuantidade.Location = new System.Drawing.Point(41, 153);
+            this.numQuantidade.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.numQuantidade.Maximum = new decimal(new int[] {
             9999,
             0,
             0,
             0});
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(317, 26);
-            this.numericUpDown1.TabIndex = 3;
+            this.numQuantidade.Name = "numQuantidade";
+            this.numQuantidade.Size = new System.Drawing.Size(282, 22);
+            this.numQuantidade.TabIndex = 3;
             // 
             // lblQuantidade
             // 
             this.lblQuantidade.AutoSize = true;
             this.lblQuantidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblQuantidade.Location = new System.Drawing.Point(46, 162);
+            this.lblQuantidade.Location = new System.Drawing.Point(41, 130);
             this.lblQuantidade.Name = "lblQuantidade";
-            this.lblQuantidade.Size = new System.Drawing.Size(120, 25);
+            this.lblQuantidade.Size = new System.Drawing.Size(99, 20);
             this.lblQuantidade.TabIndex = 4;
             this.lblQuantidade.Text = "Quantidade:";
             // 
@@ -97,20 +110,19 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(46, 231);
+            this.label1.Location = new System.Drawing.Point(41, 185);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(105, 25);
+            this.label1.Size = new System.Drawing.Size(53, 20);
             this.label1.TabIndex = 6;
-            this.label1.Text = "Descrição:";
+            this.label1.Text = "Valor:";
             // 
             // btnSalvar
             // 
             this.btnSalvar.BackColor = System.Drawing.Color.Lime;
             this.btnSalvar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalvar.Location = new System.Drawing.Point(414, 399);
-            this.btnSalvar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnSalvar.Location = new System.Drawing.Point(368, 319);
             this.btnSalvar.Name = "btnSalvar";
-            this.btnSalvar.Size = new System.Drawing.Size(84, 34);
+            this.btnSalvar.Size = new System.Drawing.Size(75, 27);
             this.btnSalvar.TabIndex = 7;
             this.btnSalvar.Text = "Salvar";
             this.btnSalvar.UseVisualStyleBackColor = false;
@@ -120,47 +132,46 @@
             // 
             this.btnCancel.BackColor = System.Drawing.Color.Red;
             this.btnCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancel.Location = new System.Drawing.Point(505, 395);
-            this.btnCancel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnCancel.Location = new System.Drawing.Point(449, 316);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(82, 40);
+            this.btnCancel.Size = new System.Drawing.Size(73, 32);
             this.btnCancel.TabIndex = 8;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = false;
             // 
             // numValor
             // 
-            this.numValor.Location = new System.Drawing.Point(46, 270);
+            this.numValor.Location = new System.Drawing.Point(41, 216);
             this.numValor.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.numValor.Maximum = new decimal(new int[] {
-            9999,
+            99999,
             0,
             0,
             0});
             this.numValor.Name = "numValor";
-            this.numValor.Size = new System.Drawing.Size(317, 26);
+            this.numValor.Size = new System.Drawing.Size(282, 22);
             this.numValor.TabIndex = 3;
             // 
             // AddPedido
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SkyBlue;
-            this.ClientSize = new System.Drawing.Size(601, 450);
+            this.ClientSize = new System.Drawing.Size(534, 360);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnSalvar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblQuantidade);
             this.Controls.Add(this.numValor);
-            this.Controls.Add(this.numericUpDown1);
+            this.Controls.Add(this.numQuantidade);
             this.Controls.Add(this.lblPrdt);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cmbProdutos);
             this.Controls.Add(this.lblAdicionarPedido);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "AddPedido";
             this.Text = "AddPedido";
             this.Load += new System.EventHandler(this.AddPedido_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numQuantidade)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numValor)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -170,9 +181,9 @@
         #endregion
 
         private System.Windows.Forms.Label lblAdicionarPedido;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cmbProdutos;
         private System.Windows.Forms.Label lblPrdt;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.NumericUpDown numQuantidade;
         private System.Windows.Forms.Label lblQuantidade;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnSalvar;

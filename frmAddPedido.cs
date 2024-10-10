@@ -19,6 +19,8 @@ namespace Sorvetia_PolarMarrom
 
         public decimal Valor {  get; set; }
 
+        private List<Produto> listaProdutos {  get; set; }
+
 
         public AddPedido()
         {
@@ -27,7 +29,10 @@ namespace Sorvetia_PolarMarrom
 
         private void AddPedido_Load(object sender, EventArgs e)
         {
+            listaProdutos = ArquivoJson.ImportarProdutosJson();
 
+            cmbProdutos.Items.Clear();
+            cmbProdutos.Items.AddRange(listaProdutos.ToArray());
         }
 
         private void btnSalvar_Click(object sender, EventArgs e)
@@ -40,5 +45,7 @@ namespace Sorvetia_PolarMarrom
 
             // Fecha o Formulário atual
         }
+
+
     }
 }

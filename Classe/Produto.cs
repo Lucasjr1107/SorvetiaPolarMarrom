@@ -19,6 +19,11 @@ namespace Sorveteria_PolarMarrom.Classe
             Descricao = descricao;
             Valor = valor;
         }
+
+        public override string ToString()
+        {
+            return $"{Nome} - {Valor.ToString("C")}";
+        }
     }
 }
     
