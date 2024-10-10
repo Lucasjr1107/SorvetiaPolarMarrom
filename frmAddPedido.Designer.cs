@@ -33,11 +33,12 @@
             this.lblPrdt = new System.Windows.Forms.Label();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.lblQuantidade = new System.Windows.Forms.Label();
-            this.txtDescriçao = new System.Windows.Forms.RichTextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnSalvar = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
+            this.numValor = new System.Windows.Forms.NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numValor)).BeginInit();
             this.SuspendLayout();
             // 
             // lblAdicionarPedido
@@ -92,15 +93,6 @@
             this.lblQuantidade.TabIndex = 4;
             this.lblQuantidade.Text = "Quantidade:";
             // 
-            // txtDescriçao
-            // 
-            this.txtDescriçao.Location = new System.Drawing.Point(51, 259);
-            this.txtDescriçao.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.txtDescriçao.Name = "txtDescriçao";
-            this.txtDescriçao.Size = new System.Drawing.Size(312, 132);
-            this.txtDescriçao.TabIndex = 5;
-            this.txtDescriçao.Text = "";
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -122,6 +114,7 @@
             this.btnSalvar.TabIndex = 7;
             this.btnSalvar.Text = "Salvar";
             this.btnSalvar.UseVisualStyleBackColor = false;
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
             // btnCancel
             // 
@@ -135,6 +128,19 @@
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = false;
             // 
+            // numValor
+            // 
+            this.numValor.Location = new System.Drawing.Point(46, 270);
+            this.numValor.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.numValor.Maximum = new decimal(new int[] {
+            9999,
+            0,
+            0,
+            0});
+            this.numValor.Name = "numValor";
+            this.numValor.Size = new System.Drawing.Size(317, 26);
+            this.numValor.TabIndex = 3;
+            // 
             // AddPedido
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -144,8 +150,8 @@
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnSalvar);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.txtDescriçao);
             this.Controls.Add(this.lblQuantidade);
+            this.Controls.Add(this.numValor);
             this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.lblPrdt);
             this.Controls.Add(this.comboBox1);
@@ -155,6 +161,7 @@
             this.Text = "AddPedido";
             this.Load += new System.EventHandler(this.AddPedido_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numValor)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -167,9 +174,9 @@
         private System.Windows.Forms.Label lblPrdt;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.Label lblQuantidade;
-        private System.Windows.Forms.RichTextBox txtDescriçao;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnSalvar;
         private System.Windows.Forms.Button btnCancel;
+        private System.Windows.Forms.NumericUpDown numValor;
     }
 }

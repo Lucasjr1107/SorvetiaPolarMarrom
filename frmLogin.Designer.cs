@@ -77,20 +77,20 @@
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(418, 429);
+            this.btnCancelar.Location = new System.Drawing.Point(418, 435);
             this.btnCancelar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(82, 46);
+            this.btnCancelar.Size = new System.Drawing.Size(89, 40);
             this.btnCancelar.TabIndex = 5;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
             // 
             // btnEntrar
             // 
-            this.btnEntrar.Location = new System.Drawing.Point(330, 429);
+            this.btnEntrar.Location = new System.Drawing.Point(330, 435);
             this.btnEntrar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnEntrar.Name = "btnEntrar";
-            this.btnEntrar.Size = new System.Drawing.Size(82, 46);
+            this.btnEntrar.Size = new System.Drawing.Size(82, 40);
             this.btnEntrar.TabIndex = 6;
             this.btnEntrar.Text = "Entrar";
             this.btnEntrar.UseVisualStyleBackColor = true;
@@ -123,7 +123,6 @@
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "LoginSite";
             this.Text = "PolarMarrom";
-          
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Sorveteria_PolarMarrom.Classe
 {
-    internal class Produto
+    public class Produto
     {
 
         public string Nome { get; set; }
